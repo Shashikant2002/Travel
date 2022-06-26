@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection {
+  background: orangered;
+  color: #fff;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.glo_btn {
+  background: orangered;
+  color: #fff;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: .5s;
+  border: 1px solid transparent;
+}
+.glo_btn:hover {
+  border: 1px solid orangered;
+  background: transparent;
+  color: orangered;
+}
+.color_btn{
+  color: orangered;
+  font-weight: 600;
+  transition: .5s;
+}
+.color_btn:hover{
+  transform: translate(5px, 0);
+}
+.satisfy{
+  font-family: 'Satisfy', cursive;
+  font-weight: 500;
+  color: orangered;
+}
+p{
+  font-size: 14px;
+}
+h1{
+  font-size: 66px;
+}
+h2{
+  font-size: 50px;
+  line-height: 50px;
+}
+h4{
+  font-size: 21px;
+  font-weight: 500;
+}
+.flex{
+  display: flex;
+}
+.alin_center{
+  align-items: center;
+}
+.just_between{
+  justify-content: space-between;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+
+/* header Component Css Start Here  */
+.header{
+  width: 100%;
+  float: left;
+  background: rgba(0, 0, 0, .5);
+}
+.header .up_header{
+  background: rgba(0, 0, 0, .5);
+}
+.header .up_header .container{
+  justify-content: space-between;
+  align-items: center;
+}
+.header .up_header .detail .loc{
+  padding: 11px 10px 11px 0;
+  border-right: 1px solid #fff;
+}
+.header .up_header .detail .time{
+  padding: 11px 10px 11px 10px;
+}
+.header .up_header .detail >div p{
+  color: #fff;
+}
+.header .up_header .detail >div p span{
+  margin-right: 5px;
+  color: orangered;
+  font-size: 14px;
+}
+.header .up_header .contact .num{
+  border-right: 1px solid #fff;
+  padding: 7px 10px;
+}
+.header .up_header .contact .mail{
+  border-right: 1px solid #fff;
+  padding: 11px 10px 11px 10px;
+} 
+.header .up_header .contact >div p{
+  color: #fff;
+}
+.header .up_header .contact >div p span{ 
+  color: orangered;
+}
+.header .up_header .contact >div .whats_app{
+  color: rgb(0, 94, 0);
+  font-size: 25px;
+  margin: 0 10px;
+}
+.header .up_header .contact >div .satisfy{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.header .main_head{
+  position: sticky;
+}
+.header .main_head .logo img{
+  width: 200px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+/* header Component Css End Here  */
+
+/* Main Banner Components Start Here  */
+.banner{
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.2)), url("../public/Assets/img/main_banner.jpg");
+  background-size: cover;
+  padding: 250px 0px;
+}
+.banner .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner .inner_con h4{
+  margin-bottom: 20px;
+  color: orangered;
+}
+.banner .inner_con h1{
+  line-height: 65px;
+}
+.banner .inner_con h1 .satisfy{
+  color: orangered;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* Main Banner Components End Here  */
+
+
+/* The World Components Start Here  */
+.the_world{
+  width: 100%;
+  float: left;
+  padding: 100px 0 ;
+}
+.the_world .innerText{
+  width: 60%;
+  padding: 0 30px 0 0 ;
+}
+.the_world .innerText p{
+  margin-top: 10px;
+}
+.the_world .image{
+  width: 60%;
+  padding: 0 0 0 30px ;
+}
+.the_world .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: inline-block;
+  border: 25px solid #ededed;
+}
+.the_world .innerText .cards .card:nth-child(1){
+  margin-right: 20px;
+}
+.the_world .innerText .cards{
+  border-bottom: 1px solid #80808033;
+  padding: 20px 0;
+}
+.the_world .innerText .experience{
+  margin-top: 20px;
+}
+.the_world .innerText .experience .world{
+  font-size: 80px;
+  color: orangered;
+  margin-right: 10px;
+}
+/* The World Components End Here  */
+
+/* Travels Css Start Here  */
+.travels{
+  width: 100%;
+  float: left;
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.2)), url("../public/Assets//img/travel.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+.travels .cards{
+  margin-top: 50px;
+}
+.travels .cards .card .image img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: .5s;
+}
+.travels .cards .card .image{
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+.travels .cards .card{
+  overflow: hidden;
+  border-radius: 5px;
+  width: 30%;
+  transition: .5s;
+}
+.travels .cards .card:hover{
+  transform: translate(0, -10px);
+}
+.travels .cards .card:hover img{
+  transform: scale(1.2) rotate(5deg);
+  cursor: pointer;
+}
+.travels .cards .card .content h4{
+  margin-top: 10px;
+}
+.travels .cards .card .content h4:hover{
+  color: orangered;
+  cursor: pointer;
+}
+.travels .cards .card .content p span{
+  color: orangered;
+}
+.travels .cards .card .content .price{
+  margin-top: 15px;
+  border-top: 1px solid #00000024;
+  padding-top: 10px;
+  
+}
+.travels .cards .card .content{
+  background: #fff;
+  text-align: left;
+  padding: 20px 20px;
+}
+.travels .cards .card .content .time p:nth-child(1){
+  margin-right: 10px;
+}
+.travels .cards .card .content .time p span{
+  color: orangered;
+}
+.travels .cards .card .content .star{
+  color: rgb(255, 225, 0);
+  font-size: 20px;
+}
+/* Travels Css end Here  */

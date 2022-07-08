@@ -6,10 +6,22 @@
 .socal span{
     font-size: 15px;
     margin: 0 0 0 7px;
-    padding: 3px 7px;
-    background: #385da9;
+    padding: 5px 5px 2px 5px;
     color: #fff;
     border-radius: 5px;
+    cursor: pointer;
+}
+.socal span:nth-child(1){
+    background: #385da9;
+}
+.socal span:nth-child(2){
+    background: #33ccff;
+}
+.socal span:nth-child(3){
+    background: #b600a7;
+}
+.socal span:nth-child(4){
+    background: #0073b1;
 }
 /* Socal Components Css End Here  */
 /* Nav Menu Components Css Start Here  */

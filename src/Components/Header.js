@@ -16,7 +16,7 @@ export const Header = () => {
                                 <p><span><MdLocationOn /></span> 24 Tech Roqad st Ny 10023</p>
                             </div>
                             <div className="time">
-                                <p><span><BiTime /></span> 24 Tech Roqad st Ny 10023</p>
+                                <p><span><BiTime /></span> Mon-Sat: 9am to 6pm</p>
                             </div>
                         </div>
                         <div className="contact flex alin_center">

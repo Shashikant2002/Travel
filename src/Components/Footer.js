@@ -7,6 +7,8 @@ const Footer = () => {
                 <div className="connected">
                     <h4>Newsletter Sign Up</h4>
                     <p>Sign Up for News And Special Offers</p>
+                    <input type="email" placeholder='Enter Email Address'/>
+                    <button class="glo_btn">Subscribe</button>
                 </div>
             </div>
         </div>

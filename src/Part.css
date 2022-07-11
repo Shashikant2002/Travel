@@ -1,9 +1,11 @@
 /* Socal Components Css Start Here  */
-.socal{
+
+.socal {
     display: inline-block;
-    padding: 5px 0 10px;
+    padding: 2px 0 0px;
 }
-.socal span{
+
+.socal span {
     font-size: 15px;
     margin: 0 0 0 7px;
     padding: 5px 5px 2px 5px;
@@ -11,27 +13,39 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.socal span:nth-child(1){
+
+.socal span:nth-child(1) {
     background: #385da9;
 }
-.socal span:nth-child(2){
+
+.socal span:nth-child(2) {
     background: #33ccff;
 }
-.socal span:nth-child(3){
+
+.socal span:nth-child(3) {
     background: #b600a7;
 }
-.socal span:nth-child(4){
+
+.socal span:nth-child(4) {
     background: #0073b1;
 }
+
+
 /* Socal Components Css End Here  */
+
+
 /* Nav Menu Components Css Start Here  */
-.menu li a{
+
+.menu li a {
     color: #fff;
     margin-left: 15px;
     transition: .5s;
 }
-.menu li a:hover{
+
+.menu li a:hover {
     color: orangered;
     margin-left: 15px;
 }
+
+
 /* Nav Menu Components Css End Here  */

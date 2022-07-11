@@ -462,4 +462,10 @@ a {
 .footer .connected{
   border: 1px solid #fff;
 }
+.connected h4{
+  color: #ffffff;
+}
+.connected p{
+  color: #ffffff80;
+}
 /* Footer Css End Here  */

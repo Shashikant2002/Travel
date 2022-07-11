@@ -460,7 +460,7 @@ a {
   background-position: center bottom;
 }
 .footer .connected{
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 .connected h4{
   color: #ffffff;

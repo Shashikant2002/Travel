@@ -453,14 +453,14 @@ a {
 .footer {
     width: 100%;
     float: left;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../public/Assets/img/footer-bg-2.png);
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../public/Assets/img/footer-bg-2.png);
     padding: 100px 0;
     background-size: cover;
     background-position: center bottom;
 }
 
 .footer .connected {
-    /* border: 1px solid #fff; */
+    border: 1px solid #fff;
 }
 
 .connected h4 {
@@ -480,6 +480,8 @@ a {
     border-bottom: 1px solid rgb(255 255 255 / 43%);
     font-size: 14px;
     outline: none;
+    margin-right: 50px;
+    margin-top: 30px;
 }
 
 
